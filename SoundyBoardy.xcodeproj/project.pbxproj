@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7CEC9601BC981290075C1F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CEC95F1BC981290075C1F9 /* AppDelegate.swift */; };
+		A7CEC9621BC981290075C1F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CEC9611BC981290075C1F9 /* ViewController.swift */; };
+		A7CEC9641BC981290075C1F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7CEC9631BC981290075C1F9 /* Assets.xcassets */; };
+		A7CEC9671BC981290075C1F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CEC9651BC981290075C1F9 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7CEC95C1BC981290075C1F9 /* SoundyBoardy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundyBoardy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CEC95F1BC981290075C1F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7CEC9611BC981290075C1F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7CEC9631BC981290075C1F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7CEC9661BC981290075C1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7CEC9681BC981290075C1F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7CEC9591BC981290075C1F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7CEC9531BC981290075C1F9 = {
+			isa = PBXGroup;
+			children = (
+				A7CEC95E1BC981290075C1F9 /* SoundyBoardy */,
+				A7CEC95D1BC981290075C1F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7CEC95D1BC981290075C1F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7CEC95C1BC981290075C1F9 /* SoundyBoardy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7CEC95E1BC981290075C1F9 /* SoundyBoardy */ = {
+			isa = PBXGroup;
+			children = (
+				A7CEC95F1BC981290075C1F9 /* AppDelegate.swift */,
+				A7CEC9611BC981290075C1F9 /* ViewController.swift */,
+				A7CEC9631BC981290075C1F9 /* Assets.xcassets */,
+				A7CEC9651BC981290075C1F9 /* Main.storyboard */,
+				A7CEC9681BC981290075C1F9 /* Info.plist */,
+			);
+			path = SoundyBoardy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7CEC95B1BC981290075C1F9 /* SoundyBoardy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CEC96B1BC981290075C1F9 /* Build configuration list for PBXNativeTarget "SoundyBoardy" */;
+			buildPhases = (
+				A7CEC9581BC981290075C1F9 /* Sources */,
+				A7CEC9591BC981290075C1F9 /* Frameworks */,
+				A7CEC95A1BC981290075C1F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundyBoardy;
+			productName = SoundyBoardy;
+			productReference = A7CEC95C1BC981290075C1F9 /* SoundyBoardy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7CEC9541BC981290075C1F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = swilliams;
+				TargetAttributes = {
+					A7CEC95B1BC981290075C1F9 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A7CEC9571BC981290075C1F9 /* Build configuration list for PBXProject "SoundyBoardy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7CEC9531BC981290075C1F9;
+			productRefGroup = A7CEC95D1BC981290075C1F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7CEC95B1BC981290075C1F9 /* SoundyBoardy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7CEC95A1BC981290075C1F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CEC9641BC981290075C1F9 /* Assets.xcassets in Resources */,
+				A7CEC9671BC981290075C1F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7CEC9581BC981290075C1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CEC9621BC981290075C1F9 /* ViewController.swift in Sources */,
+				A7CEC9601BC981290075C1F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7CEC9651BC981290075C1F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7CEC9661BC981290075C1F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7CEC9691BC981290075C1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7CEC96A1BC981290075C1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7CEC96C1BC981290075C1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundyBoardy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swilliams.SoundyBoardy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7CEC96D1BC981290075C1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundyBoardy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swilliams.SoundyBoardy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7CEC9571BC981290075C1F9 /* Build configuration list for PBXProject "SoundyBoardy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CEC9691BC981290075C1F9 /* Debug */,
+				A7CEC96A1BC981290075C1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CEC96B1BC981290075C1F9 /* Build configuration list for PBXNativeTarget "SoundyBoardy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CEC96C1BC981290075C1F9 /* Debug */,
+				A7CEC96D1BC981290075C1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7CEC9541BC981290075C1F9 /* Project object */;
+}
