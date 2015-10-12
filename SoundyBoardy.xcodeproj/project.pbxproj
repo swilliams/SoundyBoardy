@@ -11,6 +11,10 @@
 		A7CEC9621BC981290075C1F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CEC9611BC981290075C1F9 /* ViewController.swift */; };
 		A7CEC9641BC981290075C1F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7CEC9631BC981290075C1F9 /* Assets.xcassets */; };
 		A7CEC9671BC981290075C1F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CEC9651BC981290075C1F9 /* Main.storyboard */; };
+		A7CEC96F1BC981F70075C1F9 /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CEC96E1BC981F70075C1F9 /* DropView.swift */; settings = {ASSET_TAGS = (); }; };
+		A7CEC9791BCB09340075C1F9 /* SoundClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CEC9781BCB09340075C1F9 /* SoundClip.swift */; settings = {ASSET_TAGS = (); }; };
+		A7CEC97B1BCB09720075C1F9 /* SoundClipCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7CEC97A1BCB09720075C1F9 /* SoundClipCell.xib */; settings = {ASSET_TAGS = (); }; };
+		A7CEC97D1BCB0ED20075C1F9 /* SoundClipContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CEC97C1BCB0ED20075C1F9 /* SoundClipContainer.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		A7CEC9631BC981290075C1F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7CEC9661BC981290075C1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7CEC9681BC981290075C1F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7CEC96E1BC981F70075C1F9 /* DropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
+		A7CEC9781BCB09340075C1F9 /* SoundClip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundClip.swift; sourceTree = "<group>"; };
+		A7CEC97A1BCB09720075C1F9 /* SoundClipCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoundClipCell.xib; sourceTree = "<group>"; };
+		A7CEC97C1BCB0ED20075C1F9 /* SoundClipContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundClipContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +61,13 @@
 			isa = PBXGroup;
 			children = (
 				A7CEC95F1BC981290075C1F9 /* AppDelegate.swift */,
+				A7CEC9781BCB09340075C1F9 /* SoundClip.swift */,
+				A7CEC97C1BCB0ED20075C1F9 /* SoundClipContainer.swift */,
 				A7CEC9611BC981290075C1F9 /* ViewController.swift */,
 				A7CEC9631BC981290075C1F9 /* Assets.xcassets */,
 				A7CEC9651BC981290075C1F9 /* Main.storyboard */,
+				A7CEC97A1BCB09720075C1F9 /* SoundClipCell.xib */,
+				A7CEC96E1BC981F70075C1F9 /* DropView.swift */,
 				A7CEC9681BC981290075C1F9 /* Info.plist */,
 			);
 			path = SoundyBoardy;
@@ -120,6 +132,7 @@
 			files = (
 				A7CEC9641BC981290075C1F9 /* Assets.xcassets in Resources */,
 				A7CEC9671BC981290075C1F9 /* Main.storyboard in Resources */,
+				A7CEC97B1BCB09720075C1F9 /* SoundClipCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +145,9 @@
 			files = (
 				A7CEC9621BC981290075C1F9 /* ViewController.swift in Sources */,
 				A7CEC9601BC981290075C1F9 /* AppDelegate.swift in Sources */,
+				A7CEC9791BCB09340075C1F9 /* SoundClip.swift in Sources */,
+				A7CEC96F1BC981F70075C1F9 /* DropView.swift in Sources */,
+				A7CEC97D1BCB0ED20075C1F9 /* SoundClipContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
